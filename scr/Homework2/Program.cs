@@ -12,10 +12,8 @@ enum Weeks
 }
 class Sample
 {
-
     public static void Main()
     {
-
         Curentday();
         Console.WriteLine();
         try
@@ -23,7 +21,6 @@ class Sample
             Console.WriteLine("Enter the name of the day format:(Monday, Tuesday,Wednesday,Thursday,)");
             WeeksbyName();
             Console.WriteLine();
-
             Console.WriteLine("Enter the number of the day format 1-7st");
             DaybyNumber();
         }
@@ -33,46 +30,43 @@ class Sample
             Console.WriteLine("Enter the name of the day format:(Monday, Tuesday,Wednesday,Thursday,)");
             WeeksbyName();
             Console.WriteLine();
-
             Console.WriteLine("Enter the number of the day format 1-7st");
             DaybyNumber();
         }
-
-
     }
     static void WeeksbyName()
     {
         string today = Console.ReadLine();
-        string number;
+        string Numberofdays;
         if (today == Weeks.Monday.ToString())
         {
-            number = "1st";
+            Numberofdays = "1st";
         }
         else if (today == Weeks.Tuesday.ToString())
         {
-            number = "2st";
+            Numberofdays = "2st";
         }
         else if (today == Weeks.Wednesday.ToString())
         {
-            number = "3st";
+            Numberofdays = "3st";
         }
         else if (today == Weeks.Thursday.ToString())
         {
-            number = "4st";
+            Numberofdays = "4st";
         }
         else if (today == Weeks.Friday.ToString())
         {
-            number = "5st";
+            Numberofdays = "5st";
         }
         else if (today == Weeks.Saturday.ToString())
         {
-            number = "6st";
+            Numberofdays = "6st";
         }
         else
         {
-            number = "7st";
+            Numberofdays = "7st";
         }
-        Console.WriteLine($"Today is {today}, {number} days of week");
+        Console.WriteLine($"Today is {today}, {Numberofdays} days of week");
     }
     static void DaybyNumber()
     {
@@ -113,9 +107,7 @@ class Sample
         string today = DateTime.Now.DayOfWeek.ToString();
         Console.WriteLine($"Today is {today}");
     }
-
-
-} 
+}
 /*
 This example produces the following results:
 
