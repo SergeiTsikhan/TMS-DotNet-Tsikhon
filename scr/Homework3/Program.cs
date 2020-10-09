@@ -18,7 +18,7 @@ namespace Homework_1
 
         static void Main(string[] args)
         {
-            //Write Current day of the weeek with its number            
+            //Write Current day of the weeek with its number
             CurrentDay();
 
             //Return number of week day by its name
