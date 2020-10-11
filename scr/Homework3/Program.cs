@@ -15,7 +15,10 @@ namespace Homework_1
             Saturday = 6,
             Sunday = 7
         }
-
+        /// <summary>
+        /// Current day.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Write Current day of the weeek with its number
