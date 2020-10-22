@@ -13,7 +13,7 @@ namespace Homework7.Logic
         {
             foreach(var animal in Animals)
             {
-                Console.WriteLine($"Animal height:{animal.Height}");
+                animal.ShowInfo();
             }
         }
     }

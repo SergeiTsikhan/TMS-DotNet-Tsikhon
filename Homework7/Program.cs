@@ -19,9 +19,6 @@ namespace Homework7
             {
                 Height = 8
             };
-            greywolf.ShowInfo();
-            monkey.ShowInfo();
-            Console.WriteLine("=========");
             IZooManager zoomanager = new ZooManager();
 
             zoomanager.Animals.Add(greywolf);
