@@ -16,11 +16,6 @@ namespace Homework6
 
             Tom.say();
             Tom.Jump();
-
-
-
-
-
         }
     }
 }

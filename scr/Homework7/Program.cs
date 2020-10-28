@@ -3,7 +3,9 @@ using Homework7.Interface;
 using Homework7.Logic;
 using Homework7.Random_class;
 using System;
-
+/// <summary>
+/// Zoo app.
+/// </summary>
 namespace Homework7
 {
     class Program
